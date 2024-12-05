@@ -1,21 +1,89 @@
-<section id="home" class="home">
-    <div class="row">
-        <div class="col-sm-12 text-white">
-            <div class="col-sm-6">
-                <!-- <p class="p-header">
-                    Oops!
-                </p> -->
-                <h1 class="text-dark pb-3">
-                    Oopsie!
-                </h1>
-                <h3 class="text-dark pb-3">
-                    We are under construction.<br>See you soon!
-                </h3>
-                <!-- <p class="pb-2">
-                    April 5th, 2025
-                </p> -->
-                <!-- <button type="button" class="btn btn-light">RSVP</button> -->
+<section id="home" class="home container-fluid">
+    <app-nav></app-nav>
+    <div class="row p-5">
+        <div class="col-sm-12 text-white text-center pt-5 pb-5">
+            <p>{{ daysLeft + daysString }} to Go</p>
+            <h1 class="pb-2 text-uppercase">
+                Darwin & Perlita
+            </h1>
+            <h5 class="pb-5">
+                April 5, 2025 in Orlando, FL
+            </h5>
+            <button type="button" class="btn btn-primary text-uppercase" [routerLink]="['/rsvp']">rsvp</button>
+        </div>
+    </div>
+ </section>
+ <section id="invitation" class="container-fluid">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-center pt-4 pb-4">
+            <h4 class="p-3">
+                We joyfully request the pleasure of your company on this special day celebrating our marriage as forever potatoes
+            </h4>
+            <a [routerLink]="['/about-us']">Learn More About Us</a>
+        </div>
+    </div>
+ </section>
+ <section id="when-details" class="container-fluid green-background">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-white text-center">
+            <h6 class="p-1 text-uppercase">
+                When
+            </h6>
+            <h2 class="pt-2">
+                Saturday, April 5th, 2025
+            </h2>
+            <p class="pt-3 medium">Ceremony<br><span class="regular">3:00 PM - 3:30 PM</span></p>
+            <p class="medium">Reception<br><span class="regular">3:30 PM - 10:30 PM</span></p>
+            <a class="text-white" [routerLink]="['/itinerary']">More Details</a><br>
+        </div>
+    </div>
+ </section>
+ <section id="where-details" class="container-fluid orange-background">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-white text-center">
+            <h6 class="p-1 text-uppercase">
+                Where
+            </h6>
+            <h2 class="pt-2">
+                Wanderlust Okto
+            </h2>
+            <p class="pt-3">6551 New Hope Rd<br>Orlando, FL 32824</p>
+            <p class="medium">Parking On<br><span class="regular">Bicky Rd Entrance</span></p>
+            <a class="text-white" [routerLink]="['/location']">More Details</a><br>
+        </div>
+    </div>
+ </section>
+ <section id="dress-code" class="container-fluid">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 text-center p-3">
+            <img src="/img/home-page-section.jpg" alt="dp-pic" class="home-section-image">
+        </div>
+        <div class="col-md-6 text-center align-self-md-center p-3">
+            <h6 class="p-1 text-uppercase">
+                Dress Code
+            </h6>
+            <h2 class="pt-2">
+                Formal
+            </h2>
+            <p class="pt-3">We kindly request guests to wear earth tone colors for our special day</p>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-1 col-md-6 p-2">
+                    <img src="/img/green-color.png" alt="green-color" class="rounded-circle dress-code">
+                </div>
+                <div class="col-lg-1 col-md-6 p-2">
+                    <img src="/img/red-color.png" alt="red-color" class="rounded-circle dress-code">
+                </div>
+                <div class="col-lg-1 col-md-6 p-2">
+                    <img src="/img/brown-color.png" alt="brown-color" class="rounded-circle dress-code">
+                </div>
+                <div class="col-lg-1 col-md-6 p-2">
+                    <img src="/img/orange-color.png" alt="orange-color" class="rounded-circle dress-code">
+                </div>
+                <div class="col-lg-1 col-md-6 p-2">
+                    <img src="/img/pink-color.png" alt="pink-color" class="rounded-circle dress-code">
+                </div>
             </div>
         </div>
     </div>
-</section>
+ </section>
+ <app-footer></app-footer>

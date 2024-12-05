@@ -1,1 +1,153 @@
-<p>faq works!</p>
+<section id="faq" class="faq container-fluid">
+    <app-nav></app-nav>
+    <div class="row p-5">
+        <div class="col-sm-12 text-white text-center pt-5 pb-5">
+            <h1 class="p-5 text-uppercase">
+                Frequenty Asked Questions
+            </h1>
+        </div>
+    </div>
+ </section>
+ <section id="ceremony-reception-questions-title" class="container-fluid orange-background">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-white text-center">
+            <h6 class="p-1 text-uppercase">
+                Ceremony & Reception Questions
+            </h6>
+        </div>
+    </div>
+ </section>
+ <section id="ceremony-reception-answers" class="container-fluid">
+    <div class="row pt-5 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                What time should I arrive to the ceremony?
+            </h6>
+            <p class="p-2">Please plan to arrive at least 15 minutes before the ceremony time. The recommended time to arrive is at 2:30 PM. The ceremony will start promptly at 3:00 PM.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                What is the dress code?
+            </h6>
+            <p class="p-2">The dress code is Formal. Earth tones are strongly recommended. For more information on the colors, please go back to the
+                    <a [routerLink]="['/']" fragment="dress-code">Home</a> page.
+            </p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                Will the ceremony, cocktail hour, and reception take place indoors or outdoors?
+            </h6>
+            <p class="p-2">The ceremony and cocktail hour will take place outdoors. The reception will take place indoors.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                Can I bring my kids?
+            </h6>
+            <p class="p-2">Due to guest limit restrictions, we are unable to accommodate children at our wedding. We apologize for any inconvenience and hope you can still join us!</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                Can I bring a gift to the wedding?
+            </h6>
+            <p class="p-2">Your presence is present enough, but should you wish to bring a gift to our wedding, please check out our
+                <a [routerLink]="['/gifts']">Gift</a> page to learn more about what you could bring.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                How do I RSVP?
+            </h6>
+            <p class="p-2">Check out our <a [routerLink]="['/rsvp']">RSVP</a> page to reserve your spot for the wedding. The deadline is on January 3, 2025.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-4">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                What is your wedding hashtag?
+            </h6>
+            <p class="p-2">#dpwedding2025</p>
+        </div>
+    </div>
+ </section>
+ <section id="location-parking-questions-title" class="container-fluid green-background">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-white text-center">
+            <h6 class="p-1 text-uppercase">
+                Location & Parking Questions
+            </h6>
+        </div>
+    </div>
+ </section>
+ <section id="location-parking-answers" class="container-fluid">
+    <div class="row pt-5 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                How do I get to the wedding venue and where can I stay?
+            </h6>
+            <p class="p-2">Check out our <a [routerLink]="['/location']">Location</a> page for directions and nearby accommodations. The address of the venue is <span class="medium">6551 New Hope Rd, Orlando, FL 32824</span>.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-4">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                Is there parking available at the wedding venue?
+            </h6>
+            <p class="p-2">Yes, we have plenty of parking available at the venue. Please enter by Bicky Rd.</p>
+        </div>
+    </div>
+ </section>
+ <section id="food-drinks-questions-title" class="container-fluid red-background">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-white text-center">
+            <h6 class="p-1 text-uppercase">
+                Food & Drinks Questions
+            </h6>
+        </div>
+    </div>
+ </section>
+ <section id="food-drinks-answers" class="container-fluid">
+    <div class="row pt-5 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                What type of food and drink will be served during cocktail hour and reception?
+            </h6>
+            <p class="p-2">We will be serving appetizers inspired by the rich culinary traditions of Peru and Colombia during cocktail hour. During dinner time, we will have a beloved traditional Peruvian dish for you to enjoy.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-2">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                I have dietary restrictions/allergies. What's the best way to let you know?
+            </h6>
+            <p class="p-2">Please let us know when you RSVP and we will do our best to accommodate you.</p>
+        </div>
+    </div>
+    <div class="row pt-3 pb-4">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h6 class="p-1 text-uppercase medium">
+                Will there be an open bar?
+            </h6>
+            <p class="p-2">Yes! Not a drinker? Don't worry. There will be non-alcoholic options available.</p>
+        </div>
+    </div>
+ </section>
+ <section id="other-questions" class="container-fluid brown-background">
+    <div class="row pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-white text-center">
+            <h6 class="p-1 text-uppercase">
+                Have other questions?
+            </h6>
+            <p class="p-2">Contact us at (954) 882-2324 for any related wedding questions.</p>
+        </div>
+    </div>
+ </section>
+  <app-footer></app-footer>

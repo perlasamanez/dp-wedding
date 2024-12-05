@@ -1,2 +1,177 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Page Titles*/
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+h6 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Paragraph and Other Font Classes*/
+p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.medium {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.regular {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer a{
+    color: white !important;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*Buttons*/
+.btn {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn-primary {
+    background-color:#efc5bf;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    min-width: 130px;
+}
+
+.btn-primary:active{
+    background-color:#e5a096 !important;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color:#e5a096;
+    color: #fff;
+}
+
+.btn-primary:focus{
+    background-color:#e5a096;
+    color: #fff;
+}
+
+/*Nav Bar Classes*/
+.logo {
+    width: 45px;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    .logo {
+      max-width: 70%;
+   }
+}
+
+.navbar{
+    position:relative;
+    z-index:1;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*Color Backgrounds*/
+.green-background {
+    background-color: #5b5f48;
+}
+
+.orange-background {
+    background-color: #d48657;
+}
+
+.red-background {
+    background-color: #71240f;
+}
+
+.brown-background {
+    background-color: #895b3b;
+}
+
+.pink-background {
+    background-color: #efc5bf;
+}
+
+/* Images*/
+.dress-code {
+    width: 45px;
+    height: auto;
+}
+
+.home-section-image {
+    width: 45%;
+    height: auto;
+}
